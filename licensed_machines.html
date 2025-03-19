@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Лицензионные Игровые Автоматы</title>
+</head>
+<body>
+    <h1>Лицензионные Игровые Автоматы 🎰</h1>
+    <p>Крути честно и выигрывай!</p>
+    <button onclick="spin()">Спин!</button>
+    <p id="result">Старт!</p>
+    <script>
+        function spin() {
+            document.getElementById("result").innerText = Math.random() > 0.5 ? "Джекпот!" : "Ещё раз!";
+        }
+    </script>
+</body>
+</html>
